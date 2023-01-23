@@ -20,40 +20,61 @@
 <body>
     <!-- header-section -->
     <header>
-        <!-- navigation -->
-        <nav class="navbar navbar-expand-sm navbar-light">
-            <div class="container d-flex justify-content-between">
-                <div>
-                    <a class="navbar-brand" href="#">Justice</a>
+        <div class="container">
+            <!-- navigation -->
+            <nav class="navbar navbar-expand-lg navbar-light py-4">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="./images/Group 2.png" alt="navbar-brand-logo">
+                    </a>
                     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav m-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" aria-current="page">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Cases</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                        <button class="btn bg-danger-subtle my-2 my-sm-0">Free Consultation</button>
+                    </div>
+            </nav>
+            <!-- banner section start  -->
+            <section class="container">
+                <div class="banner-container position-relative">
+                    <!-- <img src="./images/Rectangle-4.png" alt="banner-image-of-justice"> -->
+                    <div class="banner-text position-absolute top-50 start-50 translate-middle">
+                        <h1 class=" display-2 text-white mb-4">We Provide Effective Legal Solutions</h1>
+                        <p class="text-white mb-4 fs-5">Our lawyers and consultants work side-by-side to help clients
+                            safeguard their business, optimise its performance and support long-term, sustainable
+                            growth...
+                        </p>
+                        <form action="">
+                            <input class="bg-white px-5 py-3 rounded-3 mb-3" type="search"
+                                placeholder="Search Your Services">
+                            <input class=" bg-danger-subtle px-5 py-3 rounded-3 ms-lg-3" type="button" value="Search">
+                        </form>
+                    </div>
                 </div>
-                <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" aria-current="page">Home <span
-                                    class="visually-hidden">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Cases</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-                <button class="btn btn bg-danger-subtle my-2 my-sm-0" type="submit">Free Consultation</button>
-        </nav>
+                <!-- banner section end  -->
+            </section>
     </header>
+    <!-- header-section end -->
 
 
 
@@ -66,6 +87,8 @@
 
 
 
+    </div>
+    <!-- wrapper end  -->
 
     <!-- bootstrap javascript link  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
