@@ -4,10 +4,25 @@
     padding: 0;
 }
 
+.btn-primary-color {
+    background-color: #B68C5A;
+}
+
+.btn-primary-color: {
+    background-color: antiquewhite;
+    color: #ffffff;
+    transition: 0.4s;
+}
+
 .banner-container {
     height: 750px;
     background-image: url('./images/Rectangle-4.png'), url('./images/Rectangle-5.png');
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     background-size: cover;
+}
+
+.carousel-img {
+    filter: brightness(60%);
+    height: 700px;
 }
