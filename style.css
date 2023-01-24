@@ -8,9 +8,9 @@
     background-color: #B68C5A;
 }
 
-.btn-primary-color: {
-    background-color: antiquewhite;
-    color: #ffffff;
+.btn-primary-color:hover {
+    background-color: rgba(63, 36, 1, 0.623);
+    color: rgb(224, 224, 224);
     transition: 0.4s;
 }
 
